@@ -49,6 +49,8 @@ public class C01_KeyboardActions extends TestBase {
         String arananKelime="samsung A71";
         String actuaalTitle=driver.getTitle();
         Assert.assertTrue(actuaalTitle.contains(arananKelime),"arama yapilamadi");
+
+        System.out.println("Merhaba dunya github deneme");
     }
 
 
